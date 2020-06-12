@@ -1,9 +1,9 @@
 package ua.lviv.lgs_robot;
 
-public class RobotDancer 
+public class RobotDancer  extends Robot
 {
-	public void work()
+	RobotDancer()
 	{
-		System.out.println("I just dance");
+		super("dance");
 	}
 }

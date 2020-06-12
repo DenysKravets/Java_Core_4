@@ -1,9 +1,9 @@
 package ua.lviv.lgs_robot;
 
-public class RobotCooker 
+public class RobotCooker extends Robot
 {
-	public void work()
+	RobotCooker()
 	{
-		System.out.println("I just cook");
+		super("cook");
 	}
 }
